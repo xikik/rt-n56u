@@ -1,4 +1,4 @@
-name: MT7620-YK
+name: YOUKU-L1
 
 on: 
   release:
@@ -6,12 +6,12 @@ on:
   push:
     tags:
     - 'v*'
-  branches: 
-    - master
- # schedule:
- #   - cron: 0 17 * * 4
-watch:
- types: [started]
+  #  branches: 
+  #    - master
+#  schedule:
+#    - cron: 0 8 * * 5
+  watch:
+    types: [started]
 
 jobs:
   build:
@@ -108,3 +108,4 @@ jobs:
         tag: AtuoBuild
         overwrite: true
         file_glob: true
+        
