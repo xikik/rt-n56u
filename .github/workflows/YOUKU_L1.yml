@@ -1,4 +1,4 @@
-name: Build MT7620-YK
+name: MT7620-YK
 
 on: 
   release:
@@ -6,8 +6,8 @@ on:
   push:
     tags:
     - 'v*'
-  #  branches: 
-  #    - master
+  branches: 
+    - master
  # schedule:
  #   - cron: 0 17 * * 4
 watch:
