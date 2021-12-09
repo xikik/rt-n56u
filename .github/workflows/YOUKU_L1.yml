@@ -3,9 +3,9 @@ name: Build MT7620-YK
 on: 
   release:
     types: [published]
-#  push:
-#    tags:
-#    - 'v*'
+  push:
+    tags:
+    - 'v*'
   #  branches: 
   #    - master
  # schedule:
